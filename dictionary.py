@@ -25,3 +25,29 @@ for key, value in person.items():
     print(f"{key}:{value}")
 
 # print(person)
+
+#collections.COUNTER
+#great for counting occurences
+
+from collections import Counter
+
+#count frequency of characters in a string
+text = "interview"
+freq = Counter(text)
+print(freq) 
+
+#count words in a list
+words = ["apple", "banana", "apple"]
+word_count = Counter(words)
+print(word_count)
+
+#dictionary comprehension
+#squaring numbers
+squares = {x: x**2 for x in range(5)}
+print(squares)
+
+#checking key existence (in)
+if "name" in person:
+    print("Key exists")
+
+    

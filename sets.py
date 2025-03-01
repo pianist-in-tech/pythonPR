@@ -1,6 +1,7 @@
 #unordered  collection of unique elements
 #no duplicates allowed
 #fast lookups, mutable but only stores immutable elements
+#use hashing to store elements
 
 #set
 numbers = {1, 2, 3, 4, 5}

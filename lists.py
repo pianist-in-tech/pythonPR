@@ -1,3 +1,6 @@
+#cannot be hashed
+#Lists are mutable, meaning their content can change, which would change their hash value
+
 #list
 nums = [10, 20, 30, 40, 50]
 

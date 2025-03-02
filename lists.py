@@ -35,3 +35,9 @@ squared = [x**2 for x in nums if x != 50]
 print(nums) 
 print(popped) 
 print(squared) 
+
+
+# List Comprehension
+nums = [1, 2, 3, 4, 5]
+squared = [x**2 for x in nums]
+print(squared) 

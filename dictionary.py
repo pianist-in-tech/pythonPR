@@ -50,4 +50,6 @@ print(squares)
 if "name" in person:
     print("Key exists")
 
-    
+# Dictionary Counter
+word_freq = Counter("interview")
+print(word_freq) 

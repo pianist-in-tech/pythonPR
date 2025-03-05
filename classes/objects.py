@@ -18,4 +18,18 @@ class Car:
         return f"{self.brand} {self.model}'s engine started!"
     
     #creating objects (instances)
-car1 = Car("Toyota", "C
+car1 = Car("Toyota", "Camry", 2022)
+car2 = Car("Honda", "Civic", 2021)
+
+print(car1.start_engine())
+print(car2.start_engine())
+
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def greet(self):
+        return f"Hello, my name is {self.name}!"
+
+p = Person("Alice")
+print(p.greet())
